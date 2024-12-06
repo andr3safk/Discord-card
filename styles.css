@@ -130,7 +130,7 @@ body {
   font-weight: 500;  
 }
 
-.extraInfo__data h3, .extraInfo__conexiones h3{
+.extraInfo__data h3, .extraInfo__conexiones input{
   padding-top: 10px;
   font-size: 14px;
   color: #ffffffb1;
@@ -155,10 +155,16 @@ body {
   margin-left: 90px;
 }
 
-.extraInfo__Github h3{
+.extraInfo__Github a{
   font-size: 16px;
   color: #fff;
   font-weight: 500;
   padding: 4px 0 0 9px;
-  cursor: pointer;  
+  text-decoration: none;
+}
+
+.extraInfo__conexiones input{
+  background: transparent;
+  border: none;
+  width: 220px;
 }
